@@ -16,9 +16,9 @@ body {
 
 /* heading and logo*/
 
-.header {
+/* .header {
     
-}
+} */
 
 h1, h2 {
     font-family: Roboto, sans-serif;
@@ -29,6 +29,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 220%;
+    animation-name: moveInSide;
+    animation-duration: 1s;
 }
 
 #menu {
@@ -78,25 +80,71 @@ h1, h2 {
     text-transform: uppercase;
     padding-top: 150px;
     padding-left: 30px;
-
-    animation-name: moveInTop;
-    animation-duration: 5s;
+    /* text-align: center; */
+    
 }
 
 .text-box-p {
     color: #fff;
 }
 
-@keyframes moveInTop {
+@keyframes moveInSide {
     0% {
         opacity: 0;
-        transform: translateY(-100px);
-    }
-    80% {
-
+        transform: translateX(-100px);
     }
     100% {
         opacity: 1;
         transform: translate(0);
     }
 }
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.15);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.15);
+}
+
+.btn-blue {
+    background-color: #fff;
+    color: #007bff;
+    margin: 25px 0;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .75s;
+}
+
+.btn-blue::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.25) scaleY(1.5);
+    opacity: 0;
+}
+
