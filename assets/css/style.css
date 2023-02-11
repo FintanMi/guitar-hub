@@ -14,6 +14,11 @@ body {
     background-size: cover;
 }
 
+hr {
+    border: 1px solid #fff;
+    max-width: 275px;
+}
+
 /* heading and logo*/
 
 /* .header {
@@ -42,6 +47,7 @@ h1, h2 {
     list-style-type: none;
     margin: 20px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 #menu a {
