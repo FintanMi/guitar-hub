@@ -98,18 +98,19 @@ h1, h2 {
     padding-left: 1%;
 }
 
+#bass {
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+#hollow {
+    color: #007bff;
+    text-transform: uppercase;
+    padding-right: 1%;
+}
+
 .text-box-p {
     color: #fff;
-}
-
-.text-box-p-acou {
-    color: #007bff;
-}
-
-.other-guitars-hr {
-    border: 0.5px solid;
-    color: rgba(0, 123, 255, .8);
-    max-width: 275px;
 }
 
 @keyframes moveInSide {
@@ -192,16 +193,21 @@ h1, h2 {
     padding-top: 2%;
     width: 33%;
     float: left;
-    background-color: #fff;
     overflow: hidden;
+    display: inline-flex;
+    clear: both;
+    border-right: 1px solid #007bff;
 }
 
 #hollow {
     padding-top: 2%;
     width: 33%;
     float: right;
+    display: inline-flex;
     background-color: #fff;
-    overflow: hidden;
+    justify-content: right;
+    clear: left;
+    border-left: 1px solid #007bff;
 }
 
 #bass {
@@ -209,9 +215,44 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: #fff;
-    overflow: hidden;
+    justify-content: center;
+    display: inline-flex;
+    clear: right;
 }
 
+.bass h2 {
+    text-align: center;
+}
+
+.btn-bass {
+    margin-left: 50px;
+}
+
+.hollow h2 {
+    text-align: right;
+}
+
+.btn-hollow {
+    margin-left: 180px;
+}
+
+.other-guitars-hr {
+    border: 0.5px solid;
+    color: rgba(0, 123, 255, .8);
+    max-width: 275px;
+}
+
+.other-guitars-hr-bass {
+    border: 0.5px solid;
+    color: rgba(0, 123, 255, .8);
+    max-width: 242px;
+}
+
+.other-guitars-hr-hollow {
+    border: 0.5px solid;
+    color: rgba(0, 123, 255, .8);
+    max-width: 300px;
+}
 
 /* footer */
 
