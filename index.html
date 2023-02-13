@@ -8,6 +8,7 @@
     <meta name="keywords" content="electric guitar, acoustic guitar, bass guitar, kildare, ireland">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="scroll.js">
     <title>Guitar Hub</title>
 </head>
 <body>
@@ -15,57 +16,69 @@
         <a href="index.html">
             <h1 id="logo" class="active">Guitar Hub</h1>
         </a>
-        <nav>
+        <nav class="header-nav">
             <ul id="menu">
                 <li>
-                    <a href="hollowbody.html">Hollowbody Guitars</a>
+                    <a class="header-nav-link" href="hollowbody.html">Hollowbody Guitars</a>
                 </li>
                 <li>
-                    <a href="basses.html">Basses</a>
+                    <a class="header-nav-link" href="basses.html">Basses</a>
                 </li>
                 <li>
-                    <a href="acoustic.html">Acoustic Guitars</a>
+                    <a class="header-nav-link" href="acoustic.html">Acoustic Guitars</a>
                 </li>
                 <li>
-                    <a href="electric.html">Electric Guitars</a>
+                    <a class="header-nav-link" href="electric.html">Electric Guitars</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="hero-outer">
-        <div id="hero-image"></div>
-    </section>
-    <section id="electric-container">
-        <div class="text-box">
-            <h2 id="new-product">What's New</h2>
-            <p class="text-box-p">Check our range of electric guitars</p>
-            <hr>
-            <a href="electric.html" class="btn btn-blue">Shop Now</a>
-        </div>
-    </section>
-    <section class="container">
-        <div class="box">
-            <div class="box-row">
-                <div class="box-cell box-row-1">
-                    <h2 id="new-product-acou">What's New</h2>
-                    <p class="text-box-p-acou">Check our range of acoustic guitars</p>
-                    <a href="acoustic.html" class="btn btn-white">Shop Now</a>
-                </div>
 
-                <div class="box-cell box-row-2">
-                    <h2 id="new-product-acou">What's New</h2>
-                    <p class="text-box-p-acou">Check our range of bass guitars</p>
-                    <a href="basses.html" class="btn btn-white">Shop Now</a>
+    <main>
+        <section id="hero-outer">
+            <div class="hero">
+                <div class="text-box">
+                    <h2 class="hero-primary">What's New</h2>
+                    <p class="hero-description">We have a range of new, used and bespoke guitars. 
+                        Flick through our website to view your new guitar now! If you're 
+                        looking for something more unique, get in contact with our sales team 
+                        who will put you in contact with one of our skilled luthiers. 
+                    </p>
+                    <p class="hero-description">Check our range of electric guitars!</p>
+                    <a href="electric.html" class="btn btn-blue"><strong>Shop Now</strong></a>
                 </div>
+                <div id="hero-image">
+                    <img src="assets/images/guitar-landing-photo.png" class="hero-image" alt="Assortment of guitars">
+                </div>
+            </div>    
+        </section>
 
-                <div class="box-cell box-row-3">
-                    <h2 id="new-product-acou">What's New</h2>
-                    <p class="text-box-p-acou">Check our range of hollowbody guitars</p>
-                    <a href="hollowbody.html" class="btn btn-white">Shop Now</a>
+        <section class="container">
+            <div class="box">
+                <div class="box-row">
+                    <div class="box-cell box-row-1">
+                        <h2 id="new-product-acou"><strong>What's New</strong></h2>
+                        <p class="text-box-p-acou">Check our range of acoustic guitars</p>
+                        <a href="acoustic.html" class="btn btn-white">Shop Now</a>
+                    </div>
+    
+                    <div class="box-cell box-row-2">
+                        <h2 id="new-product-acou"><strong>What's New</strong></h2>
+                        <p class="text-box-p-acou">Check our range of bass guitars</p>
+                        <a href="basses.html" class="btn btn-white">Shop Now</a>
+                    </div>
+    
+                    <div class="box-cell box-row-3">
+                        <h2 id="new-product-acou"><strong>What's New</strong></h2>
+                        <p class="text-box-p-acou">Check our range of hollowbody guitars</p>
+                        <a href="hollowbody.html" class="btn btn-white">Shop Now</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+
+    
     <!-- <section id="other-guitars">
         <div id="acoustic">
             <div>

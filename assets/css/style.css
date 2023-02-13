@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 300;
@@ -20,10 +24,10 @@ hr {
 }
 
 /* heading and logo*/
-
-/* .header {
-    
-} */
+.header {
+    height: 3.5rem;
+    padding: 0.2rem 1rem;
+}
 
 h1, h2 {
     font-family: Roboto, sans-serif;
@@ -32,9 +36,10 @@ h1, h2 {
 }
 
 #logo {
+    height: 2rem;
     display: flex;
     float: left;
-    font-size: 220%;
+    font-size: 4rem;
     padding-left: 0.5%;
     padding-top: 0.5%;
     animation-name: moveInSide;
@@ -42,7 +47,7 @@ h1, h2 {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 1.8rem;
 }
 
 #menu li {
@@ -56,7 +61,7 @@ h1, h2 {
 #menu a {
     display: flex;
     text-decoration: none;
-    color: #032141;
+    color: #fff;
 }
 
 #menu a:hover {
@@ -67,22 +72,64 @@ h1, h2 {
     border-bottom: 1px solid #fff;
 }
 
+@keyframes moveInSide {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* main content */
+
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    padding: 3rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
 }
 
 #hero-image {
     height: 100vh;
     max-width: 100%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01)),
-    url(../images/guitar2.jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01));
     background-size: cover;
     background-position: top;
 }
 
-.text-box {
+.hero-primary {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+}
+
+.hero-description {
+    font-size: 2.5rem;
+    color: #007bff;
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+}
+
+/* .text-box {
     position: absolute;
     top: 20%;
     left: 10%;
@@ -91,7 +138,9 @@ h1, h2 {
     text-transform: uppercase;
     padding-top: 150px;
     padding-left: 30px;
-}
+} */
+
+/* container for 3 divs */
 
 #acoustic {
     color: #007bff;
@@ -114,19 +163,11 @@ h1, h2 {
     color: #fff;
 }
 
-@keyframes moveInSide {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+
 
 .btn:link,
 .btn:visited {
+    font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 25px;
@@ -184,12 +225,6 @@ h1, h2 {
     opacity: 0;
 }
 
-/* other guitar section */
-
-#other-guitars {
-    height: 200px;
-}
-
 /* #acoustic {
     padding-top: 2%;
     width: 33%;
@@ -200,7 +235,7 @@ h1, h2 {
     border-right: 1px solid #007bff;
 } */
 
-#hollow {
+/* #hollow {
     padding-top: 2%;
     width: 33%;
     float: right;
@@ -208,9 +243,9 @@ h1, h2 {
     background-color: #fff;
     justify-content: right;
     clear: left;
-}
+} */
 
-#bass {
+/* #bass {
     padding-top: 2%;
     width: 33%;
     margin: 0 auto;
@@ -218,15 +253,15 @@ h1, h2 {
     justify-content: center;
     display: inline-flex;
     clear: right;
-}
-
-.bass h2 {
-    text-align: center;
-}
-
-/* .btn-bass {
-    margin-left: 50px;
 } */
+
+.box-cell h2 {
+    font-size: 2.8rem;
+}
+
+.box-cell p {
+    font-size: 2rem;
+}
 
 .box-row-3 h2 {
     text-align: right;
@@ -235,24 +270,6 @@ h1, h2 {
 .btn-hollow {
     margin-left: 180px;
 }
-
-/* .other-guitars-hr {
-    border: 0.5px solid;
-    color: rgba(0, 123, 255, .8);
-    max-width: 275px;
-} */
-
-/* .other-guitars-hr-bass {
-    border: 0.5px solid;
-    color: rgba(0, 123, 255, .8);
-    max-width: 242px;
-} */
-
-/* .box-row-3 hr {
-    border: 0.5px solid;
-    color: rgba(0, 123, 255, .8);
-    max-width: 250px;
-} */
 
 .container .box {
     width: 98vw;
@@ -292,7 +309,7 @@ h1, h2 {
 }
 
 .social-media i {
-    font-size: 2rem;
+    font-size: 3.2rem;
     margin: 1%;
     padding: 1.5%;
     color: #007bff;
