@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -74,7 +75,7 @@ h1, h2 {
 
 #hero-image {
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01)),
     url(../images/guitar2.jpg);
     background-size: cover;
@@ -308,7 +309,7 @@ h1, h2 {
 
 #electric-photos img {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     aspect-ratio: inherit;
 }
@@ -345,15 +346,20 @@ h1, h2 {
     aspect-ratio: inherit;
 }
 
-/* .bass-column {
-    float: left;
-    width: 50%;
+/* Hollowbody guitar gallery */
+#hollowbody-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
 }
 
-#bass-photos {
+#hollowbody-photos img {
     position: relative;
-    content: "";
-    clear: both;
-    display: table;
+    width: 100%;
+    height: auto;
     aspect-ratio: inherit;
-} */
+}
+
+/* For screen sizes 1200px wide and down */
+
