@@ -86,7 +86,7 @@ h1, h2 {
     top: 20%;
     left: 10%;
     transform: translate(-50%, -50%);
-    color: #007bff;
+    color: #032141;
     text-transform: uppercase;
     padding-top: 150px;
     padding-left: 30px;
@@ -104,7 +104,7 @@ h1, h2 {
 }
 
 #hollow {
-    color: #007bff;
+    color: #032141;
     text-transform: uppercase;
     padding-right: 1%;
 }
@@ -189,7 +189,7 @@ h1, h2 {
     height: 200px;
 }
 
-#acoustic {
+/* #acoustic {
     padding-top: 2%;
     width: 33%;
     float: left;
@@ -197,7 +197,7 @@ h1, h2 {
     display: inline-flex;
     clear: both;
     border-right: 1px solid #007bff;
-}
+} */
 
 #hollow {
     padding-top: 2%;
@@ -207,7 +207,6 @@ h1, h2 {
     background-color: #fff;
     justify-content: right;
     clear: left;
-    border-left: 1px solid #007bff;
 }
 
 #bass {
@@ -224,11 +223,11 @@ h1, h2 {
     text-align: center;
 }
 
-.btn-bass {
+/* .btn-bass {
     margin-left: 50px;
-}
+} */
 
-.hollow h2 {
+.box-row-3 h2 {
     text-align: right;
 }
 
@@ -236,22 +235,49 @@ h1, h2 {
     margin-left: 180px;
 }
 
-.other-guitars-hr {
+/* .other-guitars-hr {
     border: 0.5px solid;
     color: rgba(0, 123, 255, .8);
     max-width: 275px;
-}
+} */
 
-.other-guitars-hr-bass {
+/* .other-guitars-hr-bass {
     border: 0.5px solid;
     color: rgba(0, 123, 255, .8);
     max-width: 242px;
-}
+} */
 
-.other-guitars-hr-hollow {
+/* .box-row-3 hr {
     border: 0.5px solid;
     color: rgba(0, 123, 255, .8);
-    max-width: 300px;
+    max-width: 250px;
+} */
+
+.container .box {
+    width: 98vw;
+    display:table;
+}
+
+.container .box .box-row {
+    display:table-row;
+}
+.container .box .box-cell {
+    display:table-cell;
+    width:33%;
+}
+
+.container .box .box-cell.box-row-1 {
+    color: #032141;
+    text-align:justify;
+    padding-left: 1%;
+}
+.container .box .box-cell.box-row-2 {
+    text-align:center;
+    padding-top: 1%;
+}
+.container .box .box-cell.box-row-3 {
+    text-align: right;
+    padding-right: 1%;
 }
 
 /* footer */
@@ -286,3 +312,48 @@ h1, h2 {
     height: auto;
     aspect-ratio: inherit;
 }
+
+/* acoustic guitar gallery */
+
+#acoustic-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#acoustic-photos img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: inherit;
+}
+
+/* Bass guitar gallery */
+
+#bass-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#bass-photos img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: inherit;
+}
+
+/* .bass-column {
+    float: left;
+    width: 50%;
+}
+
+#bass-photos {
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+    aspect-ratio: inherit;
+} */
