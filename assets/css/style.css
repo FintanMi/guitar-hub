@@ -25,7 +25,7 @@ hr {
 
 /* heading and logo*/
 .header {
-    height: 3.5rem;
+    height: 6.4rem;
     padding: 0.2rem 1rem;
 }
 
@@ -129,17 +129,6 @@ h1, h2 {
     margin-bottom: 1.5rem;
 }
 
-/* .text-box {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    color: #032141;
-    text-transform: uppercase;
-    padding-top: 150px;
-    padding-left: 30px;
-} */
-
 /* container for 3 divs */
 
 #acoustic {
@@ -159,11 +148,9 @@ h1, h2 {
     padding-right: 1%;
 }
 
-.text-box-p {
+/* .text-box-p {
     color: #fff;
-}
-
-
+} */
 
 .btn:link,
 .btn:visited {
@@ -225,36 +212,6 @@ h1, h2 {
     opacity: 0;
 }
 
-/* #acoustic {
-    padding-top: 2%;
-    width: 33%;
-    float: left;
-    overflow: hidden;
-    display: inline-flex;
-    clear: both;
-    border-right: 1px solid #007bff;
-} */
-
-/* #hollow {
-    padding-top: 2%;
-    width: 33%;
-    float: right;
-    display: inline-flex;
-    background-color: #fff;
-    justify-content: right;
-    clear: left;
-} */
-
-/* #bass {
-    padding-top: 2%;
-    width: 33%;
-    margin: 0 auto;
-    background-color: #fff;
-    justify-content: center;
-    display: inline-flex;
-    clear: right;
-} */
-
 .box-cell h2 {
     font-size: 2.8rem;
 }
@@ -264,31 +221,31 @@ h1, h2 {
 }
 
 .box-row-3 h2 {
-    text-align: right;
+    text-align: center;
 }
 
-.btn-hollow {
+/* .btn-hollow {
     margin-left: 180px;
-}
+} */
 
 .container .box {
     width: 98vw;
     display:table;
 }
 
-.container .box .box-row {
+/* .container .box .box-row {
     display:table-row;
-}
-.container .box .box-cell {
+} */
+/* .container .box .box-cell {
     display:table-cell;
     width:33%;
-}
+} */
 
-.container .box .box-cell.box-row-1 {
+/* .container .box .box-cell .box-row-1 {
     color: #032141;
     text-align:justify;
     padding-left: 1%;
-}
+} */
 .container .box .box-cell.box-row-2 {
     text-align:center;
     padding-top: 1%;
@@ -297,6 +254,50 @@ h1, h2 {
     text-align: right;
     padding-right: 1%;
 }
+
+.card {
+    width: 33%;
+    height: 300px;
+    background: rgba(0, 123, 255, .2);
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px 0px #100a886b;
+    margin: 7.5rem 0;
+}
+
+.card-row {
+    text-align: center;
+    align-items: center;
+}
+
+.card-column .box-row-1 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+}
+
+.card-column .box-row-2 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+}
+
+.card-column .box-row-3 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+}
+
+.card h2 {
+    padding-top: 20%;
+}
+
+/* .box-cell.box-row-1 {
+    border-right: 2px solid #fff;
+} */
+
+/* .box-cell.box-row-3 {
+    border-left: 2px solid #fff;
+} */
 
 /* footer */
 
@@ -322,6 +323,7 @@ h1, h2 {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
+    overflow: hidden;
 }
 
 #electric-photos img {
@@ -330,6 +332,8 @@ h1, h2 {
     height: auto;
     aspect-ratio: inherit;
 }
+
+
 
 /* acoustic guitar gallery */
 
