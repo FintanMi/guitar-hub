@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    /* border: none; */
     box-sizing: border-box;
 }
 
@@ -103,7 +103,7 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 100%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01));
     background-size: cover;
@@ -483,3 +483,58 @@ h1, h2 {
 
 /* For screen sizes 1200px wide and down */
 
+@media screen and (max-width: 1200px) {
+    #hero-outer {
+        width: 65%;
+        /* height: 1200px; */
+        margin: 0 auto;
+    }
+
+    .text-box {
+        width: 100%;
+        float: left;
+        padding: 0;
+        background-color: #000;
+    }
+
+    #hero-image {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-bottom: 0;
+        background-color: #000;
+    }
+
+    .container > div {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-nav {
+        clear: left;
+        float: left;
+        margin-left: 3rem;
+        margin-top: 2rem;
+        line-height: 2.5rem;
+        background-color: #000;
+    }
+
+    .card.box-cell.box-cell.box-row-1 {
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .card.box-cell.box-cell.box-row-2 {
+        width: 100%;
+        clear: both;
+    }
+
+    .card.box-cell.box-cell.box-row-3 {
+        width: 100%;
+        clear: both;
+    }
+}
