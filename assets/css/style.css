@@ -318,7 +318,7 @@ h1, h2 {
 
 /* electric guitar page gallery */
 
-#electric-photos {
+/* #electric-photos {
     clear: both;
     line-height: 0;
     column-count: 2;
@@ -329,11 +329,110 @@ h1, h2 {
 #electric-photos img {
     position: relative;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     aspect-ratio: inherit;
+} */
+
+.electric-img {
+    float: left;
+    margin-right: 40px;
 }
 
+.electric-guitar {
+    border: 2rem soild black;
+    width: 825px;
+    margin: 5% auto;
+    position: relative;
+}
 
+.product-title {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+}
+
+.product-info {
+    width: 243px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 2.5rem;
+}
+
+.price {
+    font-size: 2.8rem;
+    float: left;
+}
+
+.shipping {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2rem;
+    float: right;
+    margin-top: 6px;
+}
+
+.sale {
+    background-color: #ec2f2f;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+    left: -32px;
+}
+
+.description {
+    clear: both;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.product-details {
+    margin-top: 2.5rem;
+    width: 200px;
+    float: right;
+    font-size: 1.6rem;
+}
+
+.details-list {
+    list-style: circle;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.details-list li {
+    margin-bottom: 1rem;
+}
+
+.cart {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1.5rem;
+    width: 100%;
+    border-top: 2px soild black;
+}
+
+.cart:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.one {
+    margin-bottom: 5rem;
+}
 
 /* acoustic guitar gallery */
 
