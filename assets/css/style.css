@@ -375,6 +375,12 @@ h1, h2 {
     aspect-ratio: inherit;
 } */
 
+.one {
+    display: flex;
+    flex-direction: row;
+     margin-bottom: 5rem;
+ }
+
 .electric-img {
     float: left;
     margin-right: 40px;
@@ -472,9 +478,7 @@ h1, h2 {
     background-color: #fff;
 }
 
-.one {
-    margin-bottom: 5rem;
-}
+
 
 /* acoustic guitar gallery */
 
@@ -602,4 +606,15 @@ h1, h2 {
     /* .card-row >  {
         align-items: center;
     } */
+}
+
+/* Gallery */
+#gallery {
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 2vw);
+
+
+    width: 100%;
 }

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    max-width: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .img-container {
+    margin: 2.5rem;
+} */
+
+img {
+    width: 300px;
+    height: 250px;
+    padding: 0.25rem;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: .5;
+    transition: .5s;
+}
+
+.img-guitar {
+    object-fit: cover;
+    object-position: bottom;
+}
