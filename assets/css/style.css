@@ -18,6 +18,10 @@ body {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.799), rgba(0, 123, 255, 0.799));
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 hr {
     border: 1px solid #fff;
     max-width: 275px;
@@ -25,8 +29,11 @@ hr {
 
 /* heading and logo*/
 .header {
-    height: 6.4rem;
+    height: auto;
+    /* height: 6.4rem */
     padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1, h2 {
@@ -35,15 +42,23 @@ h1, h2 {
     color: #007bff;
 }
 
+.header h1 {
+    align-self: flex-start;
+}
+
 #logo {
     height: 2rem;
-    display: flex;
-    float: left;
+    align-items: self-start;
     font-size: 4rem;
     padding-left: 0.5%;
     padding-top: 0.5%;
     animation-name: moveInSide;
     animation-duration: 1s;
+}
+
+.header-nav {
+    display: inline-block;
+    text-align: right;
 }
 
 #menu {
@@ -59,7 +74,7 @@ h1, h2 {
 }
 
 #menu a {
-    display: flex;
+    /* display: flex; */
     text-decoration: none;
     color: #fff;
 }
@@ -85,8 +100,27 @@ h1, h2 {
 
 /* main content */
 
+#intro {
+    display: flex;
+    padding-top: 1%;
+}
+
+.intro-paragraph {
+    margin: 3rem 5rem;
+    color: #007bff;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    flex-direction: row;
+}
+
+.p-item {
+    padding-bottom: 2rem;
+}
+
 #hero-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     padding: 3rem 0;
@@ -95,11 +129,16 @@ h1, h2 {
 .hero {
     max-width: 130rem;
     margin: 0 auto;
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
     text-align: center;
     align-items: center;
+}
+
+.text-box {
+    width: 60%;
 }
 
 #hero-image {
@@ -494,15 +533,19 @@ h1, h2 {
         margin: 0 auto;
     }
 
+    .hero {
+        flex-direction: column;
+    }
+
     .text-box {
-        width: 100%;
+        width: 80%;
         float: left;
         padding: 0;
     }
 
     #hero-image {
         clear: both;
-        width: 100%;
+        width: 65%;
         float: left;
     }
 
