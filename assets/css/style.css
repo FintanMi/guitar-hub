@@ -107,7 +107,17 @@ h1, h2 {
 
 #intro {
     display: flex;
+    justify-content: space-around;
     padding-top: 1%;
+}
+
+#intro p span {
+    /* border: 1px solid black; */
+    border-top: 2px dashed rgba(255, 49, 49, 0.5);
+    border-right: 2px solid rgba(0, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(57, 255, 20, 0.5);
+    border-left: 2px solid rgba(255, 255, 113, 0.5);
+    
 }
 
 .intro-paragraph {
@@ -694,6 +704,25 @@ textarea {
     font-size: 2rem;
     color: #007bff;
     padding: 5rem 0 2.5rem 0;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #007bff; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 3s steps(70, end),
+    blink-caret .85s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #007bff; }
 }
 
 .visit-p {
