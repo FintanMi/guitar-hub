@@ -32,11 +32,10 @@ hr {
 
 /* heading and logo*/
 .header {
-    /* height: auto; */
-    /* max-height: 6.4rem; */
     padding: 0.2rem 1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 h1, h2 {
@@ -52,8 +51,6 @@ h1, h2 {
 #logo {
     height: 10rem;
     border-radius: 50%;
-    /* align-items: self-start; */
-    /* font-size: 4rem; */
     box-shadow: 1px 4px 6px 1.5px #100a886b;
     padding-left: 0.5%;
     padding-top: 0.5%;
@@ -79,7 +76,6 @@ h1, h2 {
 }
 
 #menu a {
-    /* display: flex; */
     text-decoration: none;
     color: #fff;
 }
@@ -109,15 +105,6 @@ h1, h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 1%;
-}
-
-#intro p span {
-    /* border: 1px solid black; */
-    border-top: 2px dashed rgba(255, 49, 49, 0.5);
-    border-right: 2px solid rgba(0, 255, 255, 0.5);
-    border-bottom: 2px solid rgba(57, 255, 20, 0.5);
-    border-left: 2px solid rgba(255, 255, 113, 0.5);
-    
 }
 
 .intro-paragraph {
@@ -161,7 +148,6 @@ h1, h2 {
 }
 
 #hero-outer {
-    /* height: auto; */
     width: 100%;
     overflow: hidden;
     padding: 3rem 0;
@@ -183,7 +169,6 @@ h1, h2 {
 }
 
 #hero-image {
-    /* height: 100vh; */
     max-width: 100%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01));
     background-size: cover;
@@ -309,12 +294,9 @@ h1, h2 {
     margin-left: 180px;
 } */
 
-.container {
+/* .container {
     width: 98.5vw;
-    /* display:table; */
     display: inline-block;
-    /* display: inline-flex;
-    flex-direction: row; */
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -325,9 +307,9 @@ h1, h2 {
 .container .box .box-cell.box-row-3 {
     text-align: right;
     padding-right: 1%;
-}
+} */
 
-.card {
+/* .card {
     width: 33%;
     height: 300px;
     background: rgba(0, 123, 255, .2);
@@ -340,9 +322,9 @@ h1, h2 {
     text-align: center;
     align-items: center;
     
-}
+} */
 
-.card-column .box-row-1 {
+/* .card-column .box-row-1 {
     float: left;
     width: 33.33%;
     padding: 0.5rem;
@@ -358,11 +340,17 @@ h1, h2 {
     float: left;
     width: 33.33%;
     padding: 0.5rem;
+} */
+
+/* .card h2 {
+    padding-top: 20%;
+} */
+
+.container-3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card h2 {
-    padding-top: 20%;
-}
 
 /* Contact Section */
 
@@ -448,7 +436,7 @@ textarea {
 
 /* electric guitar page gallery */
 
-/* .one {
+.one {
     display: flex;
     flex-direction: row;
     margin-bottom: 5rem;
@@ -462,12 +450,12 @@ textarea {
 
 .electric-guitar {
     border: 2rem soild black;
-    width: 825px;
+    width: 80.25rem;
     margin: 6.5% auto;
     position: relative;
-} */
+}
 
-/* .product-title {
+.product-title {
     align-self: flex-start;
     flex-basis: 100%;
     font-size: 2.2rem;
@@ -483,9 +471,9 @@ textarea {
     float: left;
     margin-right: 4rem;
     margin-top: 2.5rem;
-} */
+}
 
-/* .price {
+.price {
     font-size: 2.8rem;
     float: left;
 }
@@ -498,23 +486,9 @@ textarea {
     margin-bottom: 2rem;
     float: right;
     margin-top: 6px;
-} */
+}
 
-/* .sale {
-    background-color: #ec2f2f;
-    color: #fff;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 7px 15px;
-    display: inline-block;
-    position: absolute;
-    top: -17px;
-    left: -32px;
-} */
-
-/* .description {
+.description {
     clear: both;
     margin-bottom: 1rem;
     font-size: 1.6rem;
@@ -524,9 +498,9 @@ textarea {
     margin-top: 2.5rem;
     display: inline-block;
     font-size: 1.6rem;
-} */
+}
 
-/* .details-list {
+.details-list {
     list-style: circle;
     margin-left: 2rem;
     padding-top: 1rem;
@@ -534,9 +508,9 @@ textarea {
 
 .details-list li {
     margin-bottom: 1rem;
-} */
+}
 
-/* .cart {
+.cart {
     background-color: #007bff;
     border: none;
     color: #fff;
@@ -550,22 +524,6 @@ textarea {
 .cart:hover {
     color: #000;
     background-color: #fff;
-} */
-
-.product-new {
-    display: flex;
-    padding: 4.5rem;
-}
-
-.product-img-new {
-    flex: 0 0 30%;
-    background-color: orange;
-    /* margin-right: 4rem; */
-}
-
-.product-description-new {
-    background-color: rebeccapurple;
-    flex: 1;
 }
 
 /* acoustic guitar gallery */
@@ -594,21 +552,6 @@ textarea {
 }
 
 #bass-photos img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    aspect-ratio: inherit;
-}
-
-/* Hollowbody guitar gallery */
-#hollowbody-photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-
-#hollowbody-photos img {
     position: relative;
     width: 100%;
     height: auto;
@@ -720,17 +663,6 @@ textarea {
     /* .card-row >  {
         align-items: center;
     } */
-}
-
-/* Gallery */
-#gallery {
-    grid-column: full-start / full-end;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 2vw);
-
-
-    width: 100%;
 }
 
 /* thank you for visiting page */
