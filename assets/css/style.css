@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: none; */
     box-sizing: border-box;
 }
 
@@ -12,7 +11,7 @@ html {
 }
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Roboto Condensed, sans-serif;
@@ -127,7 +126,7 @@ h1, h2 {
     border-top: 1px soild #007bbf;
     display: flex;
     flex-wrap: wrap;
-    
+    align-content: center;
 }
 
 .li-item {
@@ -197,25 +196,84 @@ h1, h2 {
 
 /* container for 3 divs */
 
-#acoustic {
-    color: #007bff;
-    text-transform: uppercase;
-    padding-left: 1%;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
-#bass {
-    color: #007bff;
-    text-transform: uppercase;
+.card {
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 1rem;
+    border: 1px solid #007bff;
+    align-items: center;
+    justify-content: center;
 }
 
-#hollow {
-    color: #032141;
-    text-transform: uppercase;
+.card-info-text {
+    padding: 0 20px 20px;
+}
+
+.card-info-text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* .container {
+    width: 98.5vw;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .box .box-cell.box-row-2 {
+    text-align:center;
+    padding-top: 1%;
+} */
+
+/* .container .box .box-cell.box-row-3 {
+    text-align: right;
     padding-right: 1%;
 }
 
-/* .text-box-p {
-    color: #fff;
+.card {
+    width: 33%;
+    height: 300px;
+    background: rgba(0, 123, 255, .2);
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px 0px #100a886b;
+    margin: 7.5rem 0;
+} */
+
+/* .card-row {
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card-column .box-row-1 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+} */
+
+/* .card-column .box-row-2 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+}
+
+.card-column .box-row-3 {
+    float: left;
+    width: 33.33%;
+    padding: 0.5rem;
+}
+
+.card h2 {
+    padding-top: 20%;
 } */
 
 .btn:link,
@@ -286,71 +344,9 @@ h1, h2 {
     font-size: 2rem;
 }
 
-.box-row-3 h2 {
+/* .box-row-3 h2 {
     text-align: center;
-}
-
-/* .btn-hollow {
-    margin-left: 180px;
 } */
-
-/* .container {
-    width: 98.5vw;
-    display: inline-block;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.container .box .box-cell.box-row-2 {
-    text-align:center;
-    padding-top: 1%;
-}
-.container .box .box-cell.box-row-3 {
-    text-align: right;
-    padding-right: 1%;
-} */
-
-/* .card {
-    width: 33%;
-    height: 300px;
-    background: rgba(0, 123, 255, .2);
-    border-radius: 15px;
-    box-shadow: 1px 5px 10px 0px #100a886b;
-    margin: 7.5rem 0;
-}
-
-.card-row {
-    text-align: center;
-    align-items: center;
-    
-} */
-
-/* .card-column .box-row-1 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
-}
-
-.card-column .box-row-2 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
-}
-
-.card-column .box-row-3 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
-} */
-
-/* .card h2 {
-    padding-top: 20%;
-} */
-
-.container-3-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 
 /* Contact Section */
 
@@ -558,6 +554,46 @@ textarea {
     aspect-ratio: inherit;
 }
 
+/* gallery */
+
+.container {
+    display: flex;
+    max-width: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9.6rem;
+}
+
+.gallery-info {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: 500;
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.gallery-photos img {
+    width: 300px;
+    height: 250px;
+    padding: 0.25rem;
+    border-radius: 1rem;
+}
+
+.gallery-photos img:hover {
+    cursor: pointer;
+    opacity: .5;
+    transition: .5s;
+}
+
+.img-guitar {
+    object-fit: cover;
+    object-position: bottom;
+}
+
 /* For screen sizes 1200px wide and down 
    1200/16 = 75em  */
 
@@ -607,11 +643,6 @@ textarea {
 
     .cart {
         width: auto;
-        align-content: center;
-    }
-
-    .sale {
-        display: flex;
         align-content: center;
     }
 }
