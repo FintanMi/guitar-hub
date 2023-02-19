@@ -33,7 +33,7 @@ hr {
 /* heading and logo*/
 .header {
     /* height: auto; */
-    max-height: 6.4rem;
+    /* max-height: 6.4rem; */
     padding: 0.2rem 1rem;
     display: flex;
     justify-content: space-between;
@@ -132,10 +132,36 @@ h1, h2 {
 
 .p-item {
     padding-bottom: 2rem;
+    border-bottom: 1px solid #007bbf;
+}
+
+.list {
+    margin-bottom: 3rem;
+    border-top: 1px soild #007bbf;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.li-item {
+    list-style: none;
+    padding: 2rem 0;
+    flex: 0 0 50%;
+}
+
+.li-item::before {
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+    background-color: #007bff;
+    -webkit-mask-image: url(../images/chevron-thin-right.png);
+    -webkit-mask-size: cover;
 }
 
 #hero-outer {
-    height: auto;
+    /* height: auto; */
     width: 100%;
     overflow: hidden;
     padding: 3rem 0;
@@ -422,7 +448,7 @@ textarea {
 
 /* electric guitar page gallery */
 
-.one {
+/* .one {
     display: flex;
     flex-direction: row;
     margin-bottom: 5rem;
@@ -439,9 +465,9 @@ textarea {
     width: 825px;
     margin: 6.5% auto;
     position: relative;
-}
+} */
 
-.product-title {
+/* .product-title {
     align-self: flex-start;
     flex-basis: 100%;
     font-size: 2.2rem;
@@ -457,9 +483,9 @@ textarea {
     float: left;
     margin-right: 4rem;
     margin-top: 2.5rem;
-}
+} */
 
-.price {
+/* .price {
     font-size: 2.8rem;
     float: left;
 }
@@ -472,9 +498,9 @@ textarea {
     margin-bottom: 2rem;
     float: right;
     margin-top: 6px;
-}
+} */
 
-.sale {
+/* .sale {
     background-color: #ec2f2f;
     color: #fff;
     font-size: 1.2rem;
@@ -486,9 +512,9 @@ textarea {
     position: absolute;
     top: -17px;
     left: -32px;
-}
+} */
 
-.description {
+/* .description {
     clear: both;
     margin-bottom: 1rem;
     font-size: 1.6rem;
@@ -496,13 +522,11 @@ textarea {
 
 .product-details {
     margin-top: 2.5rem;
-    /* width: 2rem; */
     display: inline-block;
-    /* float: right; */
     font-size: 1.6rem;
-}
+} */
 
-.details-list {
+/* .details-list {
     list-style: circle;
     margin-left: 2rem;
     padding-top: 1rem;
@@ -510,9 +534,9 @@ textarea {
 
 .details-list li {
     margin-bottom: 1rem;
-}
+} */
 
-.cart {
+/* .cart {
     background-color: #007bff;
     border: none;
     color: #fff;
@@ -526,9 +550,23 @@ textarea {
 .cart:hover {
     color: #000;
     background-color: #fff;
+} */
+
+.product-new {
+    display: flex;
+    padding: 4.5rem;
 }
 
+.product-img-new {
+    flex: 0 0 30%;
+    background-color: orange;
+    /* margin-right: 4rem; */
+}
 
+.product-description-new {
+    background-color: rebeccapurple;
+    flex: 1;
+}
 
 /* acoustic guitar gallery */
 
@@ -704,25 +742,33 @@ textarea {
     font-size: 2rem;
     color: #007bff;
     padding: 5rem 0 2.5rem 0;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #007bff; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    animation: 
-    typing 3s steps(70, end),
-    blink-caret .85s step-end infinite;
+    
 }
 
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+.visit-page-p {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #007bff;
+    animation: visit-page 3.5s steps(33) 100ms 1 normal both,
+    cursor 900ms steps(87) 5;
 }
-  
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #007bff; }
+
+@keyframes visit-page {
+    from {
+        width: 0;
+    }
+    to {
+        width: 68rem;
+    }
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: rgba(17, 17, 17, 0.9);
+    }
+    to {
+        border-right-color: rgba(255, 255, 255, 0.8);
+      }
 }
 
 .visit-p {
