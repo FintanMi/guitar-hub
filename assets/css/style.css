@@ -63,7 +63,7 @@ h1, h2 {
 }
 
 #menu {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 #menu li {
@@ -118,7 +118,6 @@ h1, h2 {
 
 .p-item {
     padding-bottom: 2rem;
-    border-bottom: 1px solid #007bbf;
 }
 
 .list {
@@ -196,85 +195,24 @@ h1, h2 {
 
 /* container for 3 divs */
 
-.cards {
+.container {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
 }
 
-.card {
+.card-column {
     flex: 1;
-    flex-wrap: wrap;
-    margin: 1rem;
-    border: 1px solid #007bff;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-}
-
-.card-info-text {
-    padding: 0 20px 20px;
-}
-
-.card-info-text > button {
-    background: gray;
-    border: 0;
-    color: white;
-    padding: 10px;
-    width: 100%;
-}
-
-/* .container {
-    width: 98.5vw;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.container .box .box-cell.box-row-2 {
-    text-align:center;
-    padding-top: 1%;
-} */
-
-/* .container .box .box-cell.box-row-3 {
-    text-align: right;
-    padding-right: 1%;
-}
-
-.card {
-    width: 33%;
-    height: 300px;
     background: rgba(0, 123, 255, .2);
     border-radius: 15px;
     box-shadow: 1px 5px 10px 0px #100a886b;
     margin: 7.5rem 0;
-} */
-
-/* .card-row {
-    text-align: center;
-    align-items: center;
-    
 }
 
-.card-column .box-row-1 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
-} */
-
-/* .card-column .box-row-2 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
+.card-column h2 {
+    padding: 1rem 0;
 }
-
-.card-column .box-row-3 {
-    float: left;
-    width: 33.33%;
-    padding: 0.5rem;
-}
-
-.card h2 {
-    padding-top: 20%;
-} */
 
 .btn:link,
 .btn:visited {
@@ -344,10 +282,6 @@ h1, h2 {
     font-size: 2rem;
 }
 
-/* .box-row-3 h2 {
-    text-align: center;
-} */
-
 /* Contact Section */
 
 .contact-container{
@@ -402,12 +336,6 @@ textarea {
     color: #ec2f2f;
 }
 
-/* .form {
-    align-items: center;
-    margin: 0 auto;
-} */
-
-
 /* footer */
 
 .footer {
@@ -430,7 +358,7 @@ textarea {
     background-color: rgba(255, 255, 255, 0.799);
 }
 
-/* electric guitar page gallery */
+/* electric/acoustic/bass pages styles */
 
 .one {
     display: flex;
@@ -522,41 +450,9 @@ textarea {
     background-color: #fff;
 }
 
-/* acoustic guitar gallery */
-
-#acoustic-photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-
-#acoustic-photos img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    aspect-ratio: inherit;
-}
-
-/* Bass guitar gallery */
-
-#bass-photos {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-
-#bass-photos img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    aspect-ratio: inherit;
-}
-
 /* gallery */
 
-.container {
+.gallery-container {
     display: flex;
     max-width: fit-content;
     width: 100%;
@@ -598,14 +494,24 @@ textarea {
    1200/16 = 75em  */
 
 @media screen and (max-width: 75em) {
+    #intro {
+        text-align: center;
+        align-items: center;
+    }
+
+    .intro-paragraph li {
+        flex-direction: column;
+    }
+
     #hero-outer {
         width: 65%;
-        height: 1200px;
         margin: 0 auto;
         padding: 0;
     }
 
     .hero {
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -622,28 +528,13 @@ textarea {
     }
 
     .container {
-        width: 100%;
-        height: auto;
-    }
-
-    .container > div {
-        display: grid;
-    }
-
-    .one {
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        align-content: center;
-        width: auto;
     }
 
-    .product-title {
-        width: auto;
-        align-content: center;
-    }
-
-    .cart {
-        width: auto;
-        align-content: center;
+    .card-column {
+        width: 50%;
     }
 }
 
@@ -651,49 +542,54 @@ textarea {
     900px/16px = 56.25em */
 
 @media screen and (max-width: 56.25em) {
-    html {
-        font-size: 56.25%;
-    }
-
     #menu li {
         margin: 1.1111rem;
     }
 
     .header-nav {
-        clear: left;
-        float: left;
         margin-left: 3rem;
         margin-top: 2rem;
         line-height: 2.5rem;
     }
 
-    #menu a {
-        color: #007bff;
-    }
-
-    #hero-outer {
-        
-    }
-
-    /* .card.box-cell.box-cell.box-row-1 {
-        width: 100%;
-        clear: both;
-        padding: 0;
-    }
-
-    .card.box-cell.box-cell.box-row-2 {
-        width: 100%;
-        clear: both;
-    }
-
-    .card.box-cell.box-cell.box-row-3 {
-        width: 100%;
-        clear: both;
-    } */
-
-    /* .card-row >  {
+    #intro {
+        text-align: center;
         align-items: center;
-    } */
+    }
+
+    .intro-paragraph li {
+        flex-direction: column;
+    }
+
+    .one {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .product-title {
+        width: 50%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .product-info {
+        width: 50%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .product-details {
+        width: auto;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .cart {
+        width: auto;
+        align-content: center;
+        justify-content: center;
+    }
 }
 
 /* thank you for visiting page */
