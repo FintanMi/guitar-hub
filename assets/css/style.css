@@ -349,17 +349,38 @@ textarea {
     display: inline-flex;
     align-self: stretch;
     padding: 0 5rem;
+    position: relative;
 }
 
 .social-media i {
     font-size: 3.2rem;
     color: #007bff;
+    position: relative;
+    z-index: 10;
 }
 
-.social-media li:hover {
+.social-media li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform: scaleY(0);
+    transition: transform 200ms,
+        width 400ms cubic-bezier(1,0,0,1) 200ms;
+}
+
+.social-media li:hover::before {
+    transform: scaleY(1);
+    width: 100%;
+}
+
+/* .social-media li:hover {
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.799);
-}
+} */
 
 .phone {
     color: #007bff;
