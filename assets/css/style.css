@@ -403,6 +403,7 @@ textarea {
     color: #fff;
     padding: 15px;
     width: 100%;
+    text-align: center;
 }
 
 .product-info {
@@ -558,6 +559,13 @@ textarea {
     .card-column {
         width: 50%;
     }
+
+    .contact-container-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 /* For screen sizes 900px wide and down
@@ -611,6 +619,51 @@ textarea {
         width: auto;
         align-content: center;
         justify-content: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        align-content: center;
+        justify-content: center;
+        
+    }
+
+    .phone {
+        width: auto;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .email {
+        color: #007bff;
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+
+/* For screen sizes 640px wide and down
+    640px/16px = 40rem */
+
+@media screen and (max-width: 40em) {
+    .electric-guitar {
+        max-width: 100vw;
+    }
+}
+
+/* For screen sizes 560px wide and down
+    576px/16px = 36em */
+
+@media screen and (max-width: 36em) {
+    .header {
+        display: flex;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+        align-self: flex-end;
     }
 }
 
