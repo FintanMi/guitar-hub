@@ -17,7 +17,7 @@ body {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 300;
     color: #3d3c3d;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.799), rgba(207, 234, 295, 1));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.799), rgba(207, 234, 255, 1));
 }
 
 main {
@@ -40,7 +40,7 @@ hr {
 h1, h2 {
     font-family: Roboto, sans-serif;
     letter-spacing: 1px;
-    color: #007bff;
+    color: rgb(0, 123, 255);
 }
 
 .header h1 {
@@ -122,7 +122,6 @@ h1, h2 {
 
 .list {
     margin-bottom: 3rem;
-    border-top: 1px soild #007bff;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -418,7 +417,6 @@ button:hover {
 }
 
 .electric-guitar {
-    border: 2rem soild black;
     width: 80.25rem;
     margin: 6.5% auto;
     position: relative;
