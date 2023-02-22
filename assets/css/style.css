@@ -43,22 +43,24 @@ h1, h2 {
     color: rgb(0, 123, 255);
 }
 
-.header h1 {
+/* .header h1 {
     align-self: flex-start;
-}
+} */
 
 #logo {
     max-height: 10rem;
     border-radius: 50%;
-    box-shadow: 1px 4px 6px 1.5px #100a886b;
+    box-shadow: 1px 2px 3px 1.5px #100a886b;
     padding-left: 0.5%;
     animation-name: moveInSide;
     animation-duration: 1s;
 }
 
 .header-nav {
-    display: inline-block;
+    display: flex;
     text-align: right;
+    justify-content: right;
+    align-items: center;
 }
 
 #menu {
@@ -66,7 +68,7 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
+    display: inline-flex;
     list-style-type: none;
     margin: 2rem;
     text-transform: uppercase;
@@ -162,11 +164,11 @@ h1, h2 {
 }
 
 .text-box {
-    width: 60%;
+    width: 55%;
 }
 
 #hero-image {
-    max-width: 100%;
+    width: 45%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(0, 123, 255, 0.01));
     background-size: cover;
     background-position: top;
@@ -396,11 +398,29 @@ button:hover {
     font-weight: 500;
 }
 
+.phone a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    font-weight: bold;
+}
+
 .email {
     color: #007bff;
     font-size: 2rem;
     font-weight: 500;
 }
+
+.email a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.email a:hover {
+    font-weight: bold;
+} 
 
 /* electric/acoustic/bass pages styles */
 
@@ -412,7 +432,6 @@ button:hover {
  }
 
 .electric-img {
-    float: left;
     margin-right: 40px;
 }
 
@@ -555,7 +574,7 @@ button:hover {
     }
 
     #hero-outer {
-        width: 65%;
+        width: 90%;
         margin: 0 auto;
         padding: 0;
     }
@@ -568,14 +587,11 @@ button:hover {
 
     .text-box {
         width: 80%;
-        float: left;
         padding: 0;
     }
 
     #hero-image {
-        clear: both;
-        width: 65%;
-        float: left;
+        width: 90%;
     }
 
     .container {
@@ -586,6 +602,10 @@ button:hover {
 
     .card-column {
         width: 50%;
+    }
+
+    .contact-container {
+        margin: 4rem;
     }
 
     .contact-container-inner {
@@ -619,10 +639,18 @@ button:hover {
         flex-direction: column;
     }
 
+    .electric-guitar {
+        margin: 2.5rem;
+    }
+
     .one {
         flex-direction: column;
         align-content: center;
         justify-content: center;
+    }
+
+    .electric-container {
+        align-self: center;
     }
 
     .product-title {
@@ -672,6 +700,15 @@ button:hover {
     }
 }
 
+/* For screen sizes 700px wide and down
+    700px/16px = 43.75rem */
+
+@media screen and (max-width: 43.75rem) {
+    #menu li {
+        display: block;
+    }
+}
+
 /* For screen sizes 640px wide and down
     640px/16px = 40rem */
 
@@ -692,6 +729,29 @@ button:hover {
     #menu {
         flex-wrap: wrap;
         align-self: flex-end;
+    }
+}
+
+/* For screen sizes 400px wide and down
+    400px/16px = 25rem */
+
+@media screen and (max-width: 25rem) {
+    .card-column {
+        width: 80%;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .product-title, .cart {
+        width: 70%;
+    }
+
+    .social-media li {
+        display: block;
+        padding-bottom: 1rem;
+        text-align: center;
     }
 }
 
@@ -748,3 +808,11 @@ button:hover {
     color: #000;
 }
 
+.missing-page {
+    color: #007bff;
+}
+
+.missing-page h1 {
+    color: #007bff;
+    text-transform: uppercase;
+}
