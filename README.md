@@ -79,3 +79,4 @@ insert photos on multiple devices
 
 #### Home Page
 ![Home_Page](docs/readme_images/landing_page_wireframe.JPG)
+![Home_Page_Mobile](docs/readme_images/landing_page_wireframe_mobile.JPG)
