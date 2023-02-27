@@ -37,3 +37,18 @@ insert photos on multiple devices
 
 ![Second Section](docs/readme_images/info_page_1.JPG)
 ![Second_Section](docs/readme_images/info_page_2.JPG)
+
+  * Contact Form
+    * A contact form is available for customers. It consists of the following fields and attributes:
+      * Full Name (type=text, required)
+      * Email (type=email, required)
+      * Message (type=textarea)
+
+![Contact_Form](docs/readme_images/contact_form.JPG)
+
+    * After submitting the form, the user will be redirected to a new page displaying a message saying your query has been successfully submitted and the time frame for which a staff memeber will answer it.
+    * The user will see the above display as a typewriter effect on the page.
+    * There is a link that allows the user to return to the main page.
+    
+![Submit_Page](docs/readme_images/submit.JPG)
+    
