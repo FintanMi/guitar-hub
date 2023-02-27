@@ -11,7 +11,7 @@ insert photos on multiple devices
   * Navigation Menu
     * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices
     * Users will be able to navigate easily between pages on different sized devices
-![picture alt]
+![Navigation Menu](docs/read_me/navbar.JPG)
 
   * Footer
     * This section of the website contain the social media, email and phone information 
