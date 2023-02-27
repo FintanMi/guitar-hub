@@ -46,6 +46,8 @@ insert photos on multiple devices
 
 ![Contact_Form](docs/readme_images/contact_form.JPG)
 
+  * Submit Page
+
     * After submitting the form, the user will be redirected to a new page displaying a message saying your query has been successfully submitted and the time frame for which a staff memeber will answer it.
     * The user will see the above display as a typewriter effect on the page.
     * There is a link that allows the user to return to the main page.
