@@ -22,4 +22,12 @@ insert photos on multiple devices
   * Favicon
     * A site wide favicon will be implemented showing the Guitar Hub logo in the tab header allowing the website to be easily identified when a user has multiple tabs open
 
+![Favicon](docs/readme_images/favicon.JPG)
 
+### Main Page
+
+  * Landing Page 
+    * This will display information regarding what the website is about and the services on offer.
+  
+  * Page Info
+    * This section of the main page is split between a description of 
