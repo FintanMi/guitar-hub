@@ -78,5 +78,4 @@ insert photos on multiple devices
 ### Balsamiq
 
     Home Page
-    
-    ![Home_Page](docs/readme_images/landing_page_wireframe.JPG)
+![Home_Page](docs/readme_images/landing_page_wireframe.JPG)
