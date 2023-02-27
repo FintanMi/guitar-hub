@@ -12,3 +12,6 @@ insert photos on multiple devices
     * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices
     * Users will be able to navigate easily between pages on different sized devices
 ![picture alt]
+
+  * Footer
+    * This section of the website contain the social media, email and phone information 
