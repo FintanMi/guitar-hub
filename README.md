@@ -40,9 +40,9 @@ insert photos on multiple devices
 
   * Contact Form
     * A contact form is available for customers. It consists of the following fields and attributes:
-      * Full Name (type=text, required)
-      * Email (type=email, required)
-      * Message (type=textarea)
+      ** Full Name (type=text, required)
+      ** Email (type=email, required)
+      ** Message (type=textarea)
 
 ![Contact_Form](docs/readme_images/contact_form.JPG)
 
@@ -50,5 +50,5 @@ insert photos on multiple devices
     * The user will see the above display as a typewriter effect on the page.
     * There is a link that allows the user to return to the main page.
     
-![Submit_Page](docs/readme_images/submit.JPG)
+![Submit_Page](docs/readme_images/submit_page.JPG)
     
