@@ -78,4 +78,4 @@ insert photos on multiple devices
 ### Balsamiq
 
     # Home Page
-    
+    ![Home_Page](docs/readme_images/Guitar Hub Wireframe Landing.bmpr)
