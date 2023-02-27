@@ -11,9 +11,15 @@ insert photos on multiple devices
   * Navigation Menu
     * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices
     * Users will be able to navigate easily between pages on different sized devices
+
 ![Navigation Menu](docs/readme_images/navbar.JPG)
 
   * Footer
     * This section of the website contains the social media, email and phone information. The social media icons are clickable and will bring the user to a new tab. These icons are accessible to visually impaired users by implementing the use of aria-labels.
 
 ![Footer](docs/readme_images/footer.JPG)
+
+  * Favicon
+    * A site wide favicon will be implemented showing the Guitar Hub logo in the tab header allowing the website to be easily identified when a user has multiple tabs open
+
+
