@@ -14,4 +14,6 @@ insert photos on multiple devices
 ![Navigation Menu](docs/readme_images/navbar.JPG)
 
   * Footer
-    * This section of the website contain the social media, email and phone information 
+    * This section of the website contains the social media, email and phone information. The social media icons are clickable and will bring the user to a new tab. These icons are accessible to visually impaired users by implementing the use of aria-labels.
+
+![Footer](docs/readme_images/footer.JPG)
