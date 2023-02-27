@@ -28,6 +28,12 @@ insert photos on multiple devices
 
   * Landing Page 
     * This will display information regarding what the website is about and the services on offer.
+
+![Landing Page](docs/readme_images/landing_page.JPG)
   
   * Page Info
-    * This section of the main page is split between a description of 
+    * This section of the main page is split between a description of what's on offer and a clickable button that takes the user to the electric guitar page. There's also a collage of guitars that are currently in stock.
+    * There are a row of three boxes with three clickable buttons that take the user to either the acoustic/bass/gallery page.
+
+![Second Section](docs/readme_images/info_page_1.JPG)
+![Second_Section](docs/readme_images/info_page_2.JPG)
