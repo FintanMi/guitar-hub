@@ -54,3 +54,11 @@ insert photos on multiple devices
     
 ![Submit_Page](docs/readme_images/submit_page.JPG)
     
+## Electric/Acoustic/Bass Guitar Pages
+
+   * Contains two boxes that display information about the guitars on sale such as the price, colour and hardware specifications.
+   * The boxes are responsive so all the information can be displayed on smaller devices
+   
+![Electric_Page](docs/readme_images/electric_page.JPG)
+![Acoustic_Page](docs/readme_images/acoustic_page.JPG)
+![Bass_Page](docs/readme_images/bass_page.JPG)
