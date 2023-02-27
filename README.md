@@ -6,4 +6,9 @@ insert photos on multiple devices
 
 ## Features
 
+### Site wide
 
+  * Navigation Menu
+    * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices
+    * Users will be able to navigate easily between pages on different sized devices
+![picture alt]
