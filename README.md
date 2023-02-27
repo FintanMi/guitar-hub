@@ -9,13 +9,17 @@ insert photos on multiple devices
 ### Site wide
 
   * Navigation Menu
-    * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices
-    * Users will be able to navigate easily between pages on different sized devices
+    * Contains the links to the Home, Electric, Acoustic, Bass and Gallery pages and will be responsive on all devices.
+    * Users will be able to navigate easily between pages on different sized devices.
+    * The links display a horizontal line underneath them when the cursor hovers over them.
 
 ![Navigation Menu](docs/readme_images/navbar.JPG)
 
   * Footer
     * This section of the website contains the social media, email and phone information. The social media icons are clickable and will bring the user to a new tab. These icons are accessible to visually impaired users by implementing the use of aria-labels.
+    * The background of the social media icons become animated and change colour when the cursor hovers over them.
+    * The phone number and email address become bold when hovered over.
+    * When the phone number and email address are clicked they bring up a pop up box that allows the user to phone or email Guitar Hub.
 
 ![Footer](docs/readme_images/footer.JPG)
 
@@ -62,3 +66,16 @@ insert photos on multiple devices
 ![Electric_Page](docs/readme_images/electric_page.JPG)
 ![Acoustic_Page](docs/readme_images/acoustic_page.JPG)
 ![Bass_Page](docs/readme_images/bass_page.JPG)
+
+## Gallery Page
+
+   * The gallery shows the customer what instruments are currently in stock.
+   * The page is responsive so the gallery can be viewed on any decvice.
+   * The pictures have an opacity setting on them when they're hovered over.
+
+## Dessign
+
+### Balsamiq
+
+    # Home Page
+    
