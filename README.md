@@ -207,6 +207,18 @@ The following git commands were used throughout development to push code to the 
 
 The live link can be found here - https://fintanmi.github.io/guitar-hub/
 
+### Clone the Repository Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+1. Click on the code drop downn button
+2. Click on HTTPS
+3. Copy the repository link
+4. Open Gitpod or IDE of choice, git must be installed for the next step
+5. Type 'git clone' and paste the repository link you just copied earlier
+
+The project will have been cloned on your machine and is now ready for use
+
 ### Credits 
 
 1. When the page loads the logo slides in from the left and when the cursor hovers over each social media link there is an animation effect that was modified from the Udemy course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' by Jonas Schmedtmann
