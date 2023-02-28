@@ -87,3 +87,6 @@ insert photos on multiple devices
 
 ### Electric/Acoustic/Bass Pages
 ![Guitar_Pages](docs/readme_images/guitar_pages_wireframe.JPG)
+
+### Gallery Page
+![Gallery_Page](docs/readme_images/gallery_page_wireframe.JPG)
