@@ -186,4 +186,12 @@ The typewriter animation doesn't dynamically respond when viewed on devices arou
 
 ### Version Control
 
-The site was created using gitpod and pushed to github to the remote repository ‘guitar hub’.
+The site was created using gitpod and pushed to github to the remote repository ‘guitar-hub’.
+
+The following git commands were used throughout development to push code to the Github:
+
+```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
