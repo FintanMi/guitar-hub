@@ -174,7 +174,7 @@ The contact form at the bottom of the home page was checked to ensure it functio
 
 **Footer**
 
-The Font Awesome social media links were checked to ensure they brought the user to a new page when clicked. When the cursor hovers over each link there is an animation effect that was modified from the Udemy course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' by Jonas Schmedtmann. The phone and email contact information go bold when the cursor hovers over them. When the phone number is clicked, a pop up box appears asking the user which device they would like to contact Guitar Hub on. Similarly, when the email address is clicked, a different pop up box appears asking what application you would like to send a mail from or your default email application is opened. 
+The Font Awesome social media links were checked to ensure they brought the user to a new page when clicked. The phone and email contact information go bold when the cursor hovers over them. When the phone number is clicked, a pop up box appears asking the user which device they would like to contact Guitar Hub on. Similarly, when the email address is clicked, a different pop up box appears asking what application you would like to send a mail from or your default email application is opened. 
 
 Manual testing showed these icons and contact information behaved as expected.
 
@@ -207,3 +207,7 @@ The following git commands were used throughout development to push code to the 
 
 The live link can be found here - https://fintanmi.github.io/guitar-hub/
 
+### Credits 
+
+1. When the page loads the logo slides in from the left and when the cursor hovers over each social media link there is an animation effect that was modified from the Udemy course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' by Jonas Schmedtmann
+2. Canva was used to create the website logo
