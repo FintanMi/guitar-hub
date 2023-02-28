@@ -142,6 +142,8 @@ The website was manually tested throughout the build phase to ensure it is acces
 ![Guitar Hub Desktop Score](docs/readme_images/lighthouse_desktop.JPG)
 ![Guitar Hub Mobile Score](docs/readme_images/lighthouse_mobile.JPG)
 
+### Validation Testing
+
 HTML code was passed through the following validator https://validator.w3.org/ and received a passing score:
 
 ![HTML Check](docs/readme_images/html_check.JPG)
@@ -168,4 +170,10 @@ Links loaded as expected.
     
 **Contact Form**
     
-    
+The contact form at the bottom of the home page was checked to ensure it functioned correctly. It can only be submitted when all required fields, denoted by a red asterisk, are entered. This will bring the user to the submitted page. If a user attempts to contact Guitar Hub, by clicking Submit, without entering their full name and email, they will be prompted to enter one or both of the missing fields. The typewriter animation effect was created by manipulating code from Temitope Oyedele on blog.logrocket.com.
+
+**Footer**
+
+The Font Awesome social media links were checked to ensure they brought the user to a new page when clicked. When the cursor hovers over each link there is an animation effect that was modified from the Udemy course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' by Jonas Schmedtmann. The phone and email contact information go bold when the cursor hovers over them. When the phone number is clicked, a pop up box appears asking the user which device they would like to contact Guitar Hub on. Similarly, when the email address is clicked, a different pop up box appears asking what application you would like to send a mail from or your default email application is opened. 
+
+Manual testing showed these icons and contact information behaved as expected.
