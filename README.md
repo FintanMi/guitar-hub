@@ -92,3 +92,48 @@ insert photos on multiple devices
 ### Gallery Page
 ![Gallery_Page](docs/readme_images/gallery_page_wireframe.JPG)
 ![Galley_Page_Mobile](docs/readme_images/gallery_page_mobile_wireframe.JPG)
+
+## Technologies
+
+   *HTML - The structure of the website was built with HTML
+   *CSS - The website was styled using CSS in a different file
+   *Gitpod - Code for the project was written here
+   *Github - Code is hosted on Github and deployed with Git
+   *Git - Code was pushed to Github using Git commads
+   *Font Awesome - Social media and arrow icons were obtained from https://fontawesome.com/
+   *Favicon.io - The logo was created using this website https://https://favicon.io/
+   *Balsamiq - The wireframe were developed using https://balsamiq.com/wireframes/desktop/
+   
+## Testing
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes starting from desktop down to mobile.
+
+Steps for testing Responsiveness:
+
+ 1. Open browser and navigate to [Guitar Hub](https://fintanmi.github.io/guitar-hub)
+ 2. Open the developer tools (right click and inspect)
+ 3. Set to responsive and steadily decrease width
+ 4. Set the zoom to 50%
+ 5. Click and drag the responsive window to mimimum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+The website behaved as expected on large device screens. The contact form image began shrinking in a responsive way that made it look unappealing so it gets removed when the user is on a device of 900px wide and down. 
+
+The website was viewed on:
+
+ 1. iPhone SE
+ 2. iPhone XR
+ 3. Pixel 5
+ 4. Samsung Galaxy S8+
+ 5. iPad Mini
+ 6. Surface Duo
+
+### Accessibility
+
