@@ -612,7 +612,6 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        flex-direction: column;
     }
 }
 
@@ -684,7 +683,6 @@ button:hover {
         width: auto;
         align-content: center;
         justify-content: center;
-        
     }
 
     .phone {
@@ -708,9 +706,10 @@ button:hover {
         display: block;
     }
 
-    /* .electric-guitar {
-        margin: 2.5rem .1rem;
-    }     */
+    .visit-page-p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
 }
 
 /* For screen sizes 640px wide and down
@@ -734,6 +733,11 @@ button:hover {
         flex-wrap: wrap;
         align-self: flex-end;
     }
+
+    .visit-page-p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
 /* For screen sizes 400px wide and down
@@ -756,6 +760,10 @@ button:hover {
         display: block;
         padding-bottom: 1rem;
         text-align: center;
+    }
+
+    .visit-page-p {
+        font-size: 1.06rem;
     }
 }
 
