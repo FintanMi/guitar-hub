@@ -141,3 +141,11 @@ The website was manually tested throughout the build phase to ensure it is acces
 
 ![Guitar Hub Desktop Score](docs/readme_images/lighthouse_desktop.JPG)
 ![Guitar Hub Mobile Score](docs/readme_images/lighthouse_mobile.JPG)
+
+HTML code was passed through the following validator https://validator.w3.org/ and received a passing score:
+
+![HTML Check](docs/readme_images/html_check.JPG)
+
+CSS code was passed through the jigsaw validator https://jigsaw.w3.org/css-validator/ and received a passing score:
+
+![CSS Check](docs/readme_images/css_check.JPG)
