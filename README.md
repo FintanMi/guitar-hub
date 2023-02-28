@@ -149,3 +149,23 @@ HTML code was passed through the following validator https://validator.w3.org/ a
 CSS code was passed through the jigsaw validator https://jigsaw.w3.org/css-validator/ and received a passing score:
 
 ![CSS Check](docs/readme_images/css_check.JPG)
+
+### Functional Testing
+
+    *Navigation Links
+    
+    To ensure each navigation link on every page was set up correctly, they were manually clicked to see how they performed
+    
+    | Navigation Link | Expected Page |
+    | --- | --- |
+    | Home | index.html |
+    | Electric | electric.html |
+    | Acoustic | acoustic.html |
+    | Basses | bass.html |
+    | Gallery | gallery.html |
+    
+    Links loaded as expected.
+    
+    *Contact Form
+    
+    
