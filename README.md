@@ -157,12 +157,12 @@ CSS code was passed through the jigsaw validator https://jigsaw.w3.org/css-valid
     To ensure each navigation link on every page was set up correctly, they were manually clicked to see how they performed
     
     | Navigation Link | Expected Page |
-    | --- | --- |
-    | Home | index.html |
-    | Electric | electric.html |
-    | Acoustic | acoustic.html |
-    | Basses | bass.html |
-    | Gallery | gallery.html |
+    | --------------- | ------------- |
+    | Home            | index.html    |
+    | Electric        | electric.html |
+    | Acoustic        | acoustic.html |
+    | Basses          | bass.html     |
+    | Gallery         | gallery.html  |
     
     Links loaded as expected.
     
