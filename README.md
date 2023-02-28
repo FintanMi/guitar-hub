@@ -177,3 +177,13 @@ The contact form at the bottom of the home page was checked to ensure it functio
 The Font Awesome social media links were checked to ensure they brought the user to a new page when clicked. When the cursor hovers over each link there is an animation effect that was modified from the Udemy course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' by Jonas Schmedtmann. The phone and email contact information go bold when the cursor hovers over them. When the phone number is clicked, a pop up box appears asking the user which device they would like to contact Guitar Hub on. Similarly, when the email address is clicked, a different pop up box appears asking what application you would like to send a mail from or your default email application is opened. 
 
 Manual testing showed these icons and contact information behaved as expected.
+
+**Unfixed Bugs**
+
+The typewriter animation doesn't dynamically respond when viewed on devices around 400px and below. This will be fixed in a future release.
+
+## Deployment
+
+### Version Control
+
+The site was created using gitpod and pushed to github to the remote repository ‘guitar hub’.
