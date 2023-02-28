@@ -195,3 +195,15 @@ The following git commands were used throughout development to push code to the 
 ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
 ```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github
+
+*The site was deployed to Github with the following steps:
+1. In the GitHub, navigate to the Settings tab
+2. From the menu on left select 'Pages'
+3. From the source section drop-down menu, select the Branch: main
+4. Click 'Save'
+5. A live link will be displayed in a green banner when published successfully
+
+The live link can be found here - https://fintanmi.github.io/guitar-hub/
+
