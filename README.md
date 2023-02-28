@@ -137,3 +137,7 @@ The website was viewed on:
 
 ### Accessibility
 
+The website was manually tested throughout the build phase to ensure it is accessible to the visually impaired by including aria-labels, labels, alt descriptions. Lighthouse testing was completed on the desktop and mobile versions of the website the scores are displayed below:
+
+![Guitar Hub Desktop Score](docs/readme_images/lighthouse_desktop.JPG)
+![Guitar Hub Mobile Score](docs/readme_images/lighthouse_mobile.JPG)
