@@ -84,3 +84,6 @@ insert photos on multiple devices
 ### Contact Form Submission Page
 ![Contact_Form_Submission_Page](docs/readme_images/contact_form_wireframe.JPG)
 ![Contact_Form_Mobile_Submission_Page](docs/readme_images/submit_page_mobile.JPG)
+
+### Electric/Acoustic/Bass Pages
+![Guitar_Pages](docs/readme_images/guitar_pages_wireframe.JPG)
