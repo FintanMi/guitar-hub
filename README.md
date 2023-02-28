@@ -91,3 +91,4 @@ insert photos on multiple devices
 
 ### Gallery Page
 ![Gallery_Page](docs/readme_images/gallery_page_wireframe.JPG)
+![Galley_Page_Mobile](docs/readme_images/gallery_page_mobile_wireframe.JPG)
